@@ -47,6 +47,24 @@ textarea {
   color: white;
 }
 
+/* color key */
+.pink {
+  background-color: lightpink;
+  width: 29%;
+  font-weight: 500;
+}
+
+.green {
+  background-color: lightgreen;
+  font-weight: 500;
+}
+
+.grey {
+  background-color: lightgrey;
+  width: 29%;
+  font-weight: 500;
+}
+
 .present {
   background-color: #ff6961;
   color: white;

@@ -1,5 +1,7 @@
 # Day Planner
 
+![](Assets\pic.jpg)
+
 ## Summary
 
 Day planner utilising moment.js to color-code time data.
@@ -20,9 +22,11 @@ Below this will be a table of rows indicating columns for Time, Task, and Save.
 
 ### 09/01/22
 First upload
+
 Need to install loop: 
 
 ### 10/01/22
 Code fully functional
+
 Minor refinements needed (UI, comments, additional html text)
 

@@ -16,76 +16,76 @@ var d1 = moment().calendar();
 
 //set color scheme for all hours
 if (moment().isBefore(hour_9am)) {
-    document.getElementById("hour_9am").style.backgroundColor="LightGrey";
+    document.getElementById("time_row_9am").style.backgroundColor="LightGrey";
 } else if (moment().isBetween(hour_9am, hour_10am)) {
-    document.getElementById("hour_9am").style.backgroundColor="LightGreen";
+    document.getElementById("time_row_9am").style.backgroundColor="LightGreen";
 } else {
-    document.getElementById("hour_9am").style.backgroundColor="LightPink";
+    document.getElementById("time_row_9am").style.backgroundColor="LightPink";
 }
 
 if (moment().isBefore(hour_10am)) {
-    document.getElementById("hour_10am").style.backgroundColor="LightGrey";
+    document.getElementById("time_row_10am").style.backgroundColor="LightGrey";
 } else if (moment().isBetween(hour_10am, hour_11am)) {
-    document.getElementById("hour_10am").style.backgroundColor="LightGreen";
+    document.getElementById("time_row_10am").style.backgroundColor="LightGreen";
 } else {
-    document.getElementById("hour_10am").style.backgroundColor="LightPink";
+    document.getElementById("time_row_10am").style.backgroundColor="LightPink";
 }
 
 
 if (moment().isBefore(hour_11am)) {
-    document.getElementById("hour_11am").style.backgroundColor="LightGrey";
+    document.getElementById("time_row_11am").style.backgroundColor="LightGrey";
 } else if (moment().isBetween(hour_11am, hour_12pm)) {
-    document.getElementById("hour_11am").style.backgroundColor="LightGreen";
+    document.getElementById("time_row_11am").style.backgroundColor="LightGreen";
 } else {
-    document.getElementById("hour_11am").style.backgroundColor="LightPink";
+    document.getElementById("time_row_11am").style.backgroundColor="LightPink";
 }
 
 if (moment().isBefore(hour_12pm)) {
-    document.getElementById("hour_12pm").style.backgroundColor="LightGrey";
+    document.getElementById("time_row_12pm").style.backgroundColor="LightGrey";
 } else if (moment().isBetween(hour_12pm, hour_1pm)) {
-    document.getElementById("hour_12pm").style.backgroundColor="LightGreen";
+    document.getElementById("time_row_12pm").style.backgroundColor="LightGreen";
 } else {
-    document.getElementById("hour_12pm").style.backgroundColor="LightPink";
+    document.getElementById("time_row_12pm").style.backgroundColor="LightPink";
 }
 
 if (moment().isBefore(hour_1pm)) {
-    document.getElementById("hour_1pm").style.backgroundColor="LightGrey";
+    document.getElementById("time_row_1pm").style.backgroundColor="LightGrey";
 } else if (moment().isBetween(hour_1pm, hour_2pm)) {
-    document.getElementById("hour_1pm").style.backgroundColor="LightGreen";
+    document.getElementById("time_row_1pm").style.backgroundColor="LightGreen";
 } else {
-    document.getElementById("hour_1pm").style.backgroundColor="LightPink";
+    document.getElementById("time_row_1pm").style.backgroundColor="LightPink";
 }
 
 if (moment().isBefore(hour_2pm)) {
-    document.getElementById("hour_2pm").style.backgroundColor="LightGrey";
+    document.getElementById("time_row_2pm").style.backgroundColor="LightGrey";
 } else if (moment().isBetween(hour_2pm, hour_3pm)) {
-    document.getElementById("hour_2pm").style.backgroundColor="LightGreen";
+    document.getElementById("time_row_2pm").style.backgroundColor="LightGreen";
 } else {
-    document.getElementById("hour_2pm").style.backgroundColor="LightPink";
+    document.getElementById("time_row_2pm").style.backgroundColor="LightPink";
 }
 
 if (moment().isBefore(hour_3pm)) {
-    document.getElementById("hour_3pm").style.backgroundColor="LightGrey";
+    document.getElementById("time_row_3pm").style.backgroundColor="LightGrey";
 } else if (moment().isBetween(hour_3pm, hour_4pm)) {
-    document.getElementById("hour_3pm").style.backgroundColor="LightGreen";
+    document.getElementById("time_row_3pm").style.backgroundColor="LightGreen";
 } else {
-    document.getElementById("hour_3pm").style.backgroundColor="LightPink";
+    document.getElementById("time_row_3pm").style.backgroundColor="LightPink";
 }
 
 if (moment().isBefore(hour_4pm)) {
-    document.getElementById("hour_4pm").style.backgroundColor="LightGrey";
+    document.getElementById("time_row_4pm").style.backgroundColor="LightGrey";
 } else if (moment().isBetween(hour_4pm, hour_5pm)) {
-    document.getElementById("hour_4pm").style.backgroundColor="LightGreen";
+    document.getElementById("time_row_4pm").style.backgroundColor="LightGreen";
 } else {
-    document.getElementById("hour_4pm").style.backgroundColor="LightPink";
+    document.getElementById("time_row_4pm").style.backgroundColor="LightPink";
 }
 
 if (moment().isBefore(hour_5pm)) {
-    document.getElementById("hour_5pm").style.backgroundColor="LightGrey";
+    document.getElementById("time_row_5pm").style.backgroundColor="LightGrey";
 } else if (moment().isBetween(hour_5pm, hour_6pm)) {
-    document.getElementById("hour_5pm").style.backgroundColor="LightGreen";
+    document.getElementById("time_row_5pm").style.backgroundColor="LightGreen";
 } else {
-    document.getElementById("hour_5pm").style.backgroundColor="LightPink";
+    document.getElementById("time_row_5pm").style.backgroundColor="LightPink";
 }
 
 //9am Row Function
@@ -323,12 +323,7 @@ function save_checkboxes_5pm() {
     }
 }
 
-
-
-
-
-
-
+//save data to local storage
 window.addEventListener("load", retrieve_data_9am);
 window.addEventListener("load", retrieve_data_10am);
 window.addEventListener("load", retrieve_data_11am);
@@ -339,30 +334,11 @@ window.addEventListener("load", retrieve_data_3pm);
 window.addEventListener("load", retrieve_data_4pm);
 window.addEventListener("load", retrieve_data_5pm);
 
-//window.addEventListener("load", retrieve_data );
-
-/*
-function checkbox_clear () {
-    if (checkbox.checked = true) {
-    write_task.value = localStorage.getItem("task");
-    } 
-}
-
-//save all checkboxes on page load
-
-window.addEventListener("load", checkbox_clear);
-/*
 
 
 
 
 
 
-
-//moment (current day, desired time)
-
-//console.log(d1);
-//console.log(moment().format("YYYY-MM-DD"));
-*/
 
 
