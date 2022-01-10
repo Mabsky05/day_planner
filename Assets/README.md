@@ -14,7 +14,11 @@ Upon loading: The webpage will show a Work Day Scheduler title, subheader, and c
 
 Below this will be a table of rows indicating columns for Time, Task, and Save.
 
+Fill form, tick box and refresh to save task.
 
+Replace text in form, tick box and refresh to replace task. 
+
+Clear form, tick box and refresh to clear all. 
 
 
 
@@ -23,10 +27,17 @@ Below this will be a table of rows indicating columns for Time, Task, and Save.
 ### 09/01/22
 First upload
 
-Need to install loop: 
+Need to install loop(?) 
 
 ### 10/01/22
 Code fully functional
 
 Minor refinements needed (UI, comments, additional html text)
+
+### 10/01/22
+Added comments to code. Polished UI to be more readable. 
+
+Added text instructions in header
+
+Extended color-coding to all rows. 
 
