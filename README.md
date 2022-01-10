@@ -19,7 +19,10 @@ Below this will be a table of rows indicating columns for Time, Task, and Save.
 ## Log
 
 ### 09/01/22
-
 First upload
-
 Need to install loop: 
+
+### 10/01/22
+Code fully functional
+Minor refinements needed (UI, comments, additional html text)
+
