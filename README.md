@@ -2,6 +2,8 @@
 
 ![](Assets\pic.jpg)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ## Summary
 
 [Day planner](https://github.com/Mabsky05/day_planner) utilising moment.js to color-code time data.
