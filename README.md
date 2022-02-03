@@ -27,6 +27,9 @@ Tasks will still be displayed when the page is refreshed.
 
 To clear/change a task, change the contents then tick its respective box. 
 
+## Contact
+grimdango@gmail.com
+
 ## Log
 
 ### 09/01/22
