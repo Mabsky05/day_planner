@@ -20,19 +20,25 @@ Upon loading: The webpage will show a Work Day Scheduler title, subheader, and c
 
 Below this will be a table of rows indicating columns for Time, Task, and Save.
 
+Inputting a task under a specific time within the 'Task' heading, then ticking the box under 'Save', will save the task
+to local storage. 
 
+Tasks will still be displayed when the page is refreshed. 
 
-
+To clear/change a task, change the contents then tick its respective box. 
 
 ## Log
 
 ### 09/01/22
-First upload
+First upload.
 
-Need to install loop: 
+Need to install loop?
 
 ### 10/01/22
-Code fully functional
+Code fully functional.
 
-Minor refinements needed (UI, comments, additional html text)
+Minor refinements needed (UI, comments, additional html text).
 
+### 03/02/22
+Updated README, LICENCE.
+Code complete.
