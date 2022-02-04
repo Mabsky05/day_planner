@@ -11,7 +11,7 @@
 
 Forms are provided for writing down tasks, and checkboxes for saving into local storage.
 
-## Languages
+## Tech
 
 Bootstrap, CSS, HTML, Javascript
 
