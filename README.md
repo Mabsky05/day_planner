@@ -1,7 +1,7 @@
 # Day Planner
 
-![](Assets/pic2.jpg)
 ![](Assets/pic.jpg)
+![](Assets/pic.gif)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -13,7 +13,7 @@ Forms are provided for writing down tasks, and checkboxes for saving into local 
 
 ## Tech
 
-Bootstrap, CSS, HTML, Javascript
+Bootstrap, CSS, HTML, Javascript, Moment.js
 
 ## Description
 
