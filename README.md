@@ -33,16 +33,22 @@ grimdango@gmail.com
 
 ## Log
 
+### 04/02/22
+File restructuring.
+
+### 03/02/22
+Updated README, LICENCE.
+Code complete.
+
+### 10/01/22
+Code fully functional.
+
 ### 09/01/22
 First upload.
 
 Need to install loop?
 
-### 10/01/22
-Code fully functional.
+
 
 Minor refinements needed (UI, comments, additional html text).
 
-### 03/02/22
-Updated README, LICENCE.
-Code complete.
